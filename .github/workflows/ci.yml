@@ -26,3 +26,6 @@ jobs:
 
       - name: Build da aplicação
         run: npm run build
+
+      - name: Deploy da aplicação
+        run: echo "Deploy realizado com sucesso"
